@@ -33,6 +33,7 @@ Partial Class Form1
         ' 
         Button1.BackColor = Color.FromArgb(CByte(128), CByte(64), CByte(0))
         Button1.FlatAppearance.BorderSize = 0
+        Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Button1.Location = New Point(407, 224)
         Button1.Name = "Button1"
